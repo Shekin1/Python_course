@@ -1,7 +1,10 @@
-def sumaTodos(limitTo):
+def normal(x):
+    return x
+
+def sumaTodos(limitTo, f):
     resultado = 0
     for i in range(0, limitTo+1):
-        resultado += i
+        resultado += f(i)
     return resultado
 
-print(sumaTodos(100))
+print(sumaTodos(5, normal))
