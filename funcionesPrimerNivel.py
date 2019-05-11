@@ -38,3 +38,4 @@ def returnF(nombre):
     return None
 
 print(media(1,3,-1,15,9) )
+returnF('max')(1,3,-1,15,9)
